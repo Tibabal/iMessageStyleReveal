@@ -36,7 +36,6 @@ static void * SPXContext = &SPXContext;
 @end
 
 @interface UITableView () <UIGestureRecognizerDelegate>
-@property (nonatomic, strong) UIPanGestureRecognizer *spx_panGestureRecognizer;
 @property (nonatomic, assign) SPXRevealableViewGestureDirection spx_gestureDirection;
 @end
 
