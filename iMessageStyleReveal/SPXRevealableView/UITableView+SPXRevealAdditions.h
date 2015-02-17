@@ -51,6 +51,10 @@ typedef NS_OPTIONS(NSInteger, SPXRevealableViewGestureDirection)
  */
 @property (nonatomic, strong) UIView *revealableView;
 
+/**
+ *  This is public to be able to toggle .enabled if needed
+ */
+@property (nonatomic, strong) UIPanGestureRecognizer *spx_panGestureRecognizer;
 
 @end
 
